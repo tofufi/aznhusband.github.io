@@ -3,7 +3,7 @@ from urlparse import urljoin
 from lib.common import diritem, action_url, profile_dir
 
 base_url = 'http://icdrama.to'
-domains = ['adrama.to', 'icdrama.to', 'icdrama.se']
+domains = ['adrama.to', 'icdrama.to', 'icdrama.se','hkdrama.to']
 cache_file = os.path.join(profile_dir, 'cache.pickle')
 store_file = os.path.join(profile_dir, 'store.pickle')
 
